@@ -5,13 +5,8 @@ This is a project providing testcontainers examples for postgresql and redis tes
 
 ### Setup
 ```
-python -m venv venv
-source venv/bin/activate
-pip install -e .[testing]
+./scripts/setup.sh
 ```
-
-note, that in zsh, you need to use `pip install -e '.[testing]'`
-
 ### Run Tests
 ```
 pytest -n auto

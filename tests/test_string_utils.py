@@ -1,7 +1,4 @@
-
-
 from random import Random
-
 from testcontainers_demo.string_utils import generate_random_string
 
 
